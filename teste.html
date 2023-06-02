@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="teste.css">
+        
+    </head>
+    <body>
+        <header>
+
+            <img id="Logotipo" src="Logotipo Nome Monograma Minimalista Preto e Branco (1).png"> 
+            <h1 class="titulo-principal"> Camisas e Acessórios</h1>
+            <nav>
+                <ul>
+                    <li>home</li>
+                    <li>produtos</li>
+                    <li>contato</li>
+                </ul>
+            </nav>
+
+        </header>
+        <main> <!-- Meio -->
+
+            <section class="box">
+                <form>
+                    <fieldset>
+                        <legend><strong>Formulário de Clientes</strong></legend>
+                        <br>
+                        <section class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelinput">Nome completo</label>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelinput">Email</label>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelinput">Telefone</label>
+                        </section>
+                        <strong><p>Sexo:</p></strong>
+                        <br>
+
+                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <label for="feminino">Feminino</label>
+                        <br>
+                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <label for="masculino">Masculino</label>
+                        <br>
+                        <input type="radio" id="outro" name="genero" value="outro" required>
+                        <label for="outro">Outro</label>
+                        <br><br>
+                        <label for="data_nascimento"><strong>Ano de Nascimento</strong></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        <br><br><br>
+                        <section class="inputBox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelinput">Cidade</label>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelinput">Estado</label>
+                        </section>
+                        <br><br>
+                        <section class="inputBox">
+                            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                            <label for="endereco" class="labelinput">Endereço</label>
+                        </section>
+                        <br><br>
+                    
+                        <label for="mensagem"> Mensagem</label>
+                        <textarea cols="70" rows="10" id="mensagem"
+                        placeholder="Digite seu texto aqui" required></textarea>
+
+                        <section>
+                            <p>Como prefeere nosso contato?</p>
+
+                            <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                            <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                            <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                        </section>
+
+                        <secetion>
+                            <p> Qual horário você prefere?</p>
+                            <select>
+                               <option>Manhã</option>
+                               <option>Tarde</option>
+                               <option>Noite</option>
+                            </select>
+                        </secetion>
+
+                        <label class="chekbox">
+                        <input type="chekbox"> Gostaria de receber nossas novidades por email?</label>
+                       <input type="submit" value="Enviar formulário" class="enviar formulario" id="enviar">
+                        
+
+
+
+                    </fieldset>
+                </form>
+            </section>
+        
+        </main>
+        <footer>
+            <img id="Logotipo" src="Logotipo Nome Monograma Minimalista Preto e Branco.png">
+            <p class="copyright">&copy; copyright--Tharso Silva </p>
+        </footer>
+    
+    </body>
+    
+</html> 

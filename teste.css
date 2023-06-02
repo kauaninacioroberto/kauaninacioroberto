@@ -1,0 +1,74 @@
+header{
+    background-color:black;
+    padding: 20px;
+}
+#logo{
+    border-radius: 10px;
+}
+
+.titulo-principal{
+    color:aliceblue;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-30%,-15%);
+    font-size: 25px;
+    font-family:'Gagalin', sem serifa;
+}
+main{
+    width: 940px;
+    margin: auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+input-padrao{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width:50%; 
+}
+.checkbox{
+    margin: 20px 0;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover {
+    background: rgb(255, 42, 0);
+    transform: scale(1.2);
+}
+
+.copyright{
+    color:black;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+footer{
+    text-align: center;
+    background-image: url("br.jpn");
+    padding: 10px 0;
+}
+input:placeholder{
+    color: orange;
+}
+
