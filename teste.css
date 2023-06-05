@@ -1,5 +1,5 @@
 header{
-    background-color:black;
+    background-color:rgb(219, 212, 212);
     padding: 20px;
 }
 #logo{
@@ -7,7 +7,7 @@ header{
 }
 
 .titulo-principal{
-    color:aliceblue;
+    color:rgb(255, 255, 255);
     position: absolute;
     top: 18%;
     left: 50%;
@@ -44,7 +44,7 @@ input-padrao{
 .enviar{
     width: 40%;
     padding: 15px 0;
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -54,7 +54,7 @@ input-padrao{
 
 }
 .enviar:hover {
-    background: rgb(255, 42, 0);
+    background: rgb(40, 181, 247);
     transform: scale(1.2);
 }
 
@@ -69,6 +69,8 @@ footer{
     padding: 10px 0;
 }
 input:placeholder{
-    color: orange;
+    color: rgb(0, 0, 0);
 }
-
+.nav{
+    color: #ffffff;
+}
